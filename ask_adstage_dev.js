@@ -4,7 +4,7 @@
     port: 8125,
     backends: [ "./backends/graphite" ],
     prefixStats: "stats",
-    flushCounts: false, 
+    flushCounts: false,
     graphite: {
         legacyNamespace: false,
         globalPrefix: "report-ask-web-dev",
